@@ -1,0 +1,51 @@
+.containerTarjeta{
+    background-color: #014931;
+    border-width: 7px;
+    border-color: rgb(73, 91, 78);
+    border-style: outset;
+    width: fit-content;
+}
+
+.nombre{
+    font-style:italic;
+    font-weight:bold;
+    font-size:2em;
+    color:#b18509;
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;    
+}
+
+.containerNB{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fuenteEspecieGenero{
+    font-family:'Helvetica','Verdana','Monaco',sans-serif;
+    font-style:italic;
+    font-weight:bold;
+    font-size:23px;
+    color:#061a13;
+}
+
+.containerEG{
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.Boton{
+    background: #061a13 ;
+    background-image: url(./cerrar.png);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    border: none;
+
+
+    width: 30px;
+    height: 30px;
+
+    border-radius: 25px;
+    transition: all 0.5s;
+    cursor: pointer;
+}

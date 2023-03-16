@@ -1,0 +1,21 @@
+.espacioSearchBar{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+
+
+
+}
+
+.estiloBotonSB{
+
+    color: rgb(117, 4, 114);
+    background-position: center;
+    background-image: url(./botonSearchBar.png);
+    background-size: 150px ;
+    width: 150px;
+    height: 40px;
+    border-color: transparent;
+    border:none;
+}

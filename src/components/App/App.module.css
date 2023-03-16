@@ -1,0 +1,29 @@
+.alinearCard{
+    display: flex;
+    justify-content: center;
+    
+ }
+
+ .fondoApp{
+    background-image: url(./fondo_espacio.jpg);
+    background-size: cover;
+ }
+ 
+ .navegacion{
+   display: flex;
+   justify-content: right;
+   align-content: center;
+
+   flex-wrap: wrap;
+
+}
+
+.miEstilo{
+   background-color: aqua;
+}
+
+.miEstilo2{
+   width: 70px;
+   background-color: blue;
+   height: 100px;
+}
