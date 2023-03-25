@@ -1,0 +1,42 @@
+const personajes = [
+  {
+    id: "8",
+    name: "Adjudicator Rick",
+    status: "Dead",
+    species: "Human",
+    type: "",
+    gender: "Male",
+    origin: { name: "unknown", url: "" },
+    location: {
+      name: "Citadel of Ricks",
+      url: "https://be-a-rym.up.railway.app/api/location/3",
+    },
+    image: "https://rickandmortyapi.com/api/character/avatar/8.jpeg",
+    episode: ["https://be-a-rym.up.railway.app/api/episode/28"],
+    url: "https://be-a-rym.up.railway.app/api/character/8",
+    created: "Wed Jan 18 2023 18:38:03 GMT+0000 (Coordinated Universal Time)",
+  },
+  {
+    id: "23",
+    name: "Arcade Alien",
+    status: "unknown",
+    species: "Alien",
+    type: "",
+    gender: "Male",
+    origin: { name: "unknown", url: "" },
+    location: {
+      name: "Immortality Field Resort",
+      url: "https://be-a-rym.up.railway.app/api/location/7",
+    },
+    image: "https://rickandmortyapi.com/api/character/avatar/23.jpeg",
+    episode: [
+      "https://be-a-rym.up.railway.app/api/episode/13",
+      "https://be-a-rym.up.railway.app/api/episode/19",
+      "https://be-a-rym.up.railway.app/api/episode/21",
+      "https://be-a-rym.up.railway.app/api/episode/25",
+      "https://be-a-rym.up.railway.app/api/episode/26",
+    ],
+    url: "https://be-a-rym.up.railway.app/api/character/23",
+    created: "Wed Jan 18 2023 18:38:03 GMT+0000 (Coordinated Universal Time)",
+  },
+];
