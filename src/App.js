@@ -15,7 +15,6 @@ import {
   useParams,
 } from "react-router-dom";
 
-
 function App() {
   //! Hooks
   const [characters, setCharacters] = useState([]); //debe inicializar con un array vacío; "[]".
@@ -75,7 +74,7 @@ function App() {
     },
   ];
 
-    const onSearch = (id) => {
+  const onSearch = (id) => {
     const URL_BASE = "https://be-a-rym.up.railway.app/api";
     const KEY = "b49466414a22.081d55c7aa0b92969e89";
 
